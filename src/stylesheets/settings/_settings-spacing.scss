@@ -37,7 +37,6 @@ $theme-border-radius: (
   'lg': 1,
 ) !default;
 
-
 /*
 ----------------------------------------
 Column gap
@@ -112,8 +111,8 @@ Line height tokens
 ----------------------------------------
 */
 
+$theme-site-max-width:      'desktop' !default; // was 1040px
 $theme-site-margins:        4 !default; // was 3rem
 $theme-site-margins-mobile: 2 !default; // was 1.5rem
 
 $theme-nav-width:           'desktop' !default; // was 951px
-$theme-site-max-width:      'desktop' !default; // was 1040px

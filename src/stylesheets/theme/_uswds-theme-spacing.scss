@@ -31,9 +31,11 @@ Border radius
 ----------------------------------------
 */
 
-$theme-border-radius-sm:       2px;
-$theme-border-radius-md:       0.5;
-$theme-border-radius-lg:       1;
+$theme-border-radius: (
+  'sm': 2px,
+  'md': '05',
+  'lg': 1,
+);
 
 /*
 ----------------------------------------
@@ -50,10 +52,11 @@ Column gap
 ----------------------------------------
 */
 
-$theme-column-gaps-sm: 2px;
-//TODO: should this be -md?
-$theme-column-gaps:    2;
-$theme-column-gaps-lg: 3;
+$theme-column-gaps: (
+  'sm': 2px,
+  'md': 2,
+  'lg': 3,
+);
 
 /*
 ----------------------------------------
@@ -108,8 +111,8 @@ Line height tokens
 ----------------------------------------
 */
 
+$theme-site-max-width:      'desktop'; // was 1040px
 $theme-site-margins:        4; // was 3rem
 $theme-site-margins-mobile: 2; // was 1.5rem
 
 $theme-nav-width:           'desktop'; // was 951px
-$theme-site-max-width:      'desktop'; // was 1040px
