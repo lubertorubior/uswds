@@ -59,12 +59,17 @@ $namespace-grid: ns('grid');
         &.#{$mq-key}\:#{$namespace-grid}gap {
           @include grid-gap;
         }
-        @if $theme-column-gap-sm {
+        @if map-get($theme-column-gaps, 'sm') {
           &.#{$mq-key}\:#{$namespace-grid}gap-sm {
             @include grid-gap('sm');
           }
         }
-        @if $theme-column-gap-lg {
+        @if map-get($theme-column-gaps, 'md') {
+          &.#{$mq-key}\:#{$namespace-grid}gap-md {
+            @include grid-gap('md');
+          }
+        }
+        @if map-get($theme-column-gaps, 'lg') {
           &.#{$mq-key}\:#{$namespace-grid}gap-lg {
             @include grid-gap('lg');
           }

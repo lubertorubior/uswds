@@ -23,7 +23,7 @@
   $props: unpack($props);
   $gap: if(
     length($props) == 0,
-    $theme-column-gap,
+    map-get($theme-column-gaps, 'md'),
     smart-quote(nth($props, 1))
   );
 
@@ -35,8 +35,8 @@
     }
   }
   @else {
-    @if map-has-key($project-column-gaps, $gap) {
-      $gap: map-get($project-column-gaps, $gap);
+    @if map-has-key($theme-column-gaps, $gap) {
+      $gap: map-get($theme-column-gaps, $gap);
     }
     @else if map-has-key($system-column-gaps, $gap) {
       $gap: map-get($system-column-gaps, $gap);

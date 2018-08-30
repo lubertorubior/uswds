@@ -69,7 +69,5 @@ Output all USWDS
 @import 'core/layout-grid';
 
 .foo {
-  @include u-bg('red-50');
-  background-color: color('red-50');
-  background-color: advanced-color('red', 50, 'vivid');
+  @include grid-gap;
 }

@@ -806,18 +806,6 @@ $all-border-radius: map-collect(
 
 /*
 ----------------------------------------
-Column gaps
-----------------------------------------
-*/
-
-$project-column-gaps: (
-  'sm': $theme-column-gap-sm,
-  'md': $theme-column-gap,
-  'lg': $theme-column-gap-lg,
-);
-
-/*
-----------------------------------------
 Color palettes and shortcodes
 ----------------------------------------
 */
