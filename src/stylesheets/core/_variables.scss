@@ -791,10 +791,10 @@ Border-radius
 */
 
 $project-border-radius: (
-  0:          0,
-  'sm':         units($theme-border-radius-sm),
-  'md':         units($theme-border-radius-md),
-  'lg':         units($theme-border-radius-lg),
+  0:            0,
+  'sm':         units(map-get($theme-border-radius, 'sm')),
+  'md':         units(map-get($theme-border-radius, 'md')),
+  'lg':         units(map-get($theme-border-radius, 'lg')),
   'pill':       9999em,
 );
 
