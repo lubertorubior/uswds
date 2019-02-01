@@ -37,6 +37,6 @@ perl <path-to-annovar-dir>/table_annovar.pl <path-to-vcf-infile> <path-to-annova
   -nastring . \
   -vcfinput
 ```
-The resulting annotated VCF will be in `<path-to-vcf-outfile>`.hg19_multianno.vcf
+The resulting annotated VCF will be in `<path-to-vcf-outfile>.hg19_multianno.vcf`
 
 **Note:** remember to replace the items in `<>` with your local paths in your computer.
