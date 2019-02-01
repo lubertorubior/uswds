@@ -40,8 +40,8 @@ perl <path-to-annovar-dir>/table_annovar.pl <path-to-vcf-infile> <path-to-annova
 
 **Note:** remember to replace the items in "<>"" with your local paths in your computer:
 
-&lt;path-to-annovar-dir> | path (directory) where ANNOVAR is installed
+&lt;path-to-annovar-dir> : path (directory) where ANNOVAR is installed
 
-&lt;path-to-vcf-infile> | path (file) where input VCF is stored
+&lt;path-to-vcf-infile> : path (file) where input VCF is stored
 
-&lt;path-to-vcf-outfile> | path (file) where the resulting annotated VCF will be stored
+&lt;path-to-vcf-outfile> : path (file) where the resulting annotated VCF will be stored
